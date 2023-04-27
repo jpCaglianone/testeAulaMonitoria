@@ -27,6 +27,7 @@ $("#teste1").on("click", ()=>{
  $("#teste2").on("click", ()=>{
    $("#teste2").toggleClass("classe1")
  })
+   // alteraçao para commit
    
  }  
 )
