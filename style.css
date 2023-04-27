@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#teste{
+  height: 100px;
+  width: 100px;
+  background:  black;
+}
+p{
+  display: none;
+  color:orange;
+  font-weight: bold;
+}
+#teste0{
+  height: 100px;
+  width: 100px;
+  background:  #e00000;
+}
+#teste1{
+  height: 100px;
+  width: 100px;
+  background:  #0006b3;
+}
+#teste2{
+  height: 100px;
+  width: 100px;
+  background:  #009402;
+}
+#teste3{
+  height: 100px;
+  width: 100px;
+  background:  #ffd500;
+}
+.teste3{
+  width: 300px;
+}
+.classeAdd{
+  background-color: blue;
+  transition: all 1s;
+}
+.classeAdd:hover{
+  background: purple;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.classeAdd::before{
+  content: "teste";
+}
+
+.classe1{
+  background: black;
+  
+}
